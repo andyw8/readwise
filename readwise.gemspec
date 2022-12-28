@@ -34,6 +34,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday", "~> 2.7"
   spec.add_development_dependency "ruby-lsp", "~> 0.3.7"
   spec.add_development_dependency "standard", "~> 0.3.7"
+  spec.add_development_dependency "rubocop-performance", "~> 1.15"
+  spec.add_development_dependency "rubocop-minitest", "~> 0.25"
+  spec.add_development_dependency "rubocop-rake", "~> 0.6"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
